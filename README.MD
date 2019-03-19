@@ -26,7 +26,7 @@ AWS Systems Manager lets you run Ansible Playbook on any number of servers(witho
     - Choose `State Manager` from the `System Manager Services` 
     - Click on `Create Association`
     - Select the `AWS-RunAnsiblePlaybook`
-    - Use the `tags` to target your instance
+    - For `Targets` Choose _Specifying tags_
     - Choose appropriate `schedule`.
     - In the _Parameters Section_, paste the playbook YAML directly.
     - Define the max errors as `1`. This means that if the execution encounters 1 `error` it will stop on the remaining targets.
