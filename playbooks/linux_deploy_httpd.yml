@@ -1,6 +1,5 @@
 ---
 # This playbook will install Apache Web Server with php and mysql support
----
 - name: linux_deploy_httpd
   hosts: all
   tasks:
