@@ -22,7 +22,7 @@ AWS Systems Manager lets you run Ansible Playbook on any number of servers(witho
           TagKey:OS
           TagValue:RedHat
           ```
-1. Create SSM State Manager
+1. ## Create SSM State Manager
     - Choose `State Manager` from the `System Manager Services` 
     - Click on `Create Association`
     - Select the `AWS-RunAnsiblePlaybook`
@@ -32,10 +32,10 @@ AWS Systems Manager lets you run Ansible Playbook on any number of servers(witho
     - Define the max errors as `1`. This means that if the execution encounters 1 `error` it will stop on the remaining targets.
 
 
-1. Testing the solution
+1. ## Testing the solution
     Create an adhoc run using the `Run Command` manually, check the S3 Logs for execution results.
 
-1. ToDo
+1. ## ToDo
     1. Load the playbook into CodeCommit and bring it under version control.
     1. _or_ Use S3 version control for the playbook(s) to be stored.
 
