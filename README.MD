@@ -1,7 +1,7 @@
 # Running Ansible playbook using AWS Systems Manager
-AWS Systems Manager lets you run Ansible Playbook on any number of servers, without an SSH connection. We will see how to execute configuration management directives using Ansible on your instances using State Manager and Run Command, and the new `AWS-RunAnsiblePlaybook` public document.
+AWS Systems Manager lets you run Ansible Playbook on any number of servers(without Ansible Tower), without an SSH connection. We will see how to execute configuration management directives using Ansible on your instances using State Manager and Run Command, and the new `AWS-RunAnsiblePlaybook` public document.
 
-![Fig : Serverless AWS KMS Sentry](https://raw.githubusercontent.com/miztiik/run-ansible-playbook-from-ssm/master/images/miztiik-valaxy-run-ansible-from-amazon-ssm)
+![Fig : Serverless AWS KMS Sentry](https://raw.githubusercontent.com/miztiik/run-ansible-playbook-from-ssm/master/images/miztiik-valaxy-run-ansible-from-amazon-ssm.png)
 
 #### Follow this article in [Youtube](https://youtu.be/UYaV-VfnbT8)
 
