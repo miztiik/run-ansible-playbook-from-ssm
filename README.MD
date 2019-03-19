@@ -10,8 +10,15 @@ AWS Systems Manager lets you run Ansible Playbook on any number of servers(witho
         - `AmazonEC2RoleforSSM` - To allow Lambda to log events
        
 1. ## Prepare Target Instances
-    Lets use a RedHat Linux instances as our target instance.
+    Lets use a RedHat 7.x Linux instances as our target instance.
     1. Assign the IAM Role created in the prerequisite
+    1. Install SSM Agent
+        ```sh
+        sudo yum install -y https://s3.amazonaws.com/ec2-downloads-windows/SSMAgent/latest/linux_amd64/amazon-ssm-agent.rpm
+        sudo systemctl enable amazon-ssm-agent
+        sudo systemctl start amazon-ssm-agent
+        sudo systemctl status amazon-ssm-agent
+        ```
     1. Install Ansible in Redhat 7
           ```sh
           sudo rpm -Uvh https://dl.fedoraproject.org/pub/epel/epel-release-latest-7.noarch.rpm
