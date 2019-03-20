@@ -3,7 +3,7 @@ AWS Systems Manager lets you run Ansible Playbook on any number of servers(witho
 
 ![Fig : Serverless AWS KMS Sentry](https://raw.githubusercontent.com/miztiik/run-ansible-playbook-from-ssm/master/images/miztiik-valaxy-run-ansible-from-amazon-ssm.png)
 
-#### Follow this article in [Youtube](https://youtu.be/UYaV-VfnbT8)
+#### Follow this article in [Youtube](https://www.youtube.com/watch?v=TLiLHwQ3kao&list=PLxzKY3wu0_FKok5gI1v4g4S-g-PLaW9YD&index=34&t=0s)
 
 1. ## Pre-Requisities
     1. IAM Role - _i.e_ `ManagedInstanceRole` - _with managed permissions_ [Get Help for setting up IAM Role](https://www.youtube.com/watch?v=5g0Cuq-qKA0&list=PLxzKY3wu0_FLaF9Xzpyd9p4zRCikkD9lE&index=11)
